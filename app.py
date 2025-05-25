@@ -3,6 +3,7 @@ import pandas as pd
 
 st.title("Welcome To Sagar World")
 show_home =st.sidebar.button("Home")
+st.video("vanya.mp4")
 show_dashboard = st.sidebar.button("Dashboard")
 
 if show_dashboard:
